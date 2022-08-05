@@ -41,28 +41,73 @@ nav {
 }
 
 /* TITLE */
+.title {
+    background-color: rgb(164, 215, 218);
+    padding: 3rem 0rem;
+}
 h1 {
     text-align: center;
-    margin: 5rem 0rem;
+    color: rgb(50, 65, 88);
 }
 
 /* COURSES */
-
 h2{
     text-align: center;
+    padding-bottom: 2rem;
+}
+h3 {
+    padding: 1rem;
+}
+
+.courses {
+    padding: 3rem 0rem;
 }
 
 .courses-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.french > p {
+    padding: 5px 0px;
+}
+
+.spanish > p {
+    padding: 5px 0px;
 }
 
 
-
 /* CLASSES */
+.class {
+    text-align: center;
+    padding: 3rem 0rem;
+    color: #eee;
+    font-size: 2rem;
+    background-color: rgb(205, 205, 205);
+}
 
+/* FREQUENT QUESTIONS */
+h6 {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
 
+.h7 {
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+    font-weight: 400;
+}
+
+.questions > p {
+    padding: 1rem 0rem;
+}
+.questions {
+    text-align: center;
+    padding: 3rem 0rem;
+    background-color: rgb(164, 215, 218);
+}
 
 
 
