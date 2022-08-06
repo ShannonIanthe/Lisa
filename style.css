@@ -109,7 +109,10 @@ h6 {
     background-color: rgb(164, 215, 218);
 }
 
-
+/* FOOTER */
+footer {
+    text-align: center;
+}
 
 
 
@@ -306,5 +309,26 @@ border-color: #ea830e;
     }
     .testim .cont div p{
         line-height: 25px;
+    }
+    .nav-two {
+        visibility: hidden;
+    }
+    .nav-one {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .courses-container{
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
     }
 }
