@@ -112,6 +112,8 @@ h6 {
 /* FOOTER */
 footer {
     text-align: center;
+    background-color: rgb(205, 205, 205);
+    padding: 1rem 0rem;
 }
 
 
