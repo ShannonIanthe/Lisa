@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
 
-img {
-    height: 5rem;
-    width: 5rem;
-}
+
 *,
 *:after,
 *:before{
@@ -38,6 +35,16 @@ nav {
     display: flex;
     flex-direction: row;
     gap: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+a:hover {
+    color: rgb(5, 118, 118);
 }
 
 /* TITLE */
