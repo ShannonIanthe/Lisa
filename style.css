@@ -340,4 +340,7 @@ border-color: #ea830e;
         flex-direction: column;
         gap: 4rem;
     }
+    .questions {
+        padding: 0rem 1rem;
+    }
 }
